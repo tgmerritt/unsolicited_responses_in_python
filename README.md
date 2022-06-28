@@ -25,3 +25,16 @@ curl --location --request POST 'localhost:5000/api/v1/speak' \
     "text_to_speak": "I really like listening to Rage Against the Machine"
 }'
 ```
+
+## Notes for VS Code debugging
+
+- Open Terminal
+- activate virutal env `source venv/unsolicited_env/bin/activate`
+- Run the app `python app.py`
+- In VS Code, click Debug icon
+- Select "Python: Attach using Process ID" (Create this if you do not have it)
+- Select the running app.py process
+
+Debugger is now active.  You can use breakpoints.
+
+If your VS Code will actually respect your active `venv` using a "debug active file" option - congratulations!
